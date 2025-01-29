@@ -19,10 +19,14 @@
 
 .menu{
  
-    position: fixed; /* Fixa o menu no topo */
+    position:absolute; /* Fixa o menu no topo */
     top: 0; /* Gruda no topo */
     left: 0;
     width: 100%; /* Faz o menu ocupar toda a largura */
-    background-color: blueviolet;
+    background-color: #f7b58c;
     padding: 15px 0; /* Espaçamento interno apenas no topo e na parte inferior */
+}
+
+body{
+    background-color: #ffefff;
 }

@@ -1,0 +1,13 @@
+.body-oquelevar{
+    padding: 20px; /* Espaçamento ao redor do conteúdo  faz com que o conteudo fique em baixo do menu*/
+}
+
+h2{
+    padding: auto;
+
+}
+
+/* Estilos para os containers de conteúdo */
+.oquelevar, .oquenaolevar {
+    margin-top: 20px; /* Espaçamento superior */
+}
