@@ -1,0 +1,28 @@
+.menu a{
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Usa a cor do elemento pai */
+    font-family: Arial, sans-serif; /* Define a fonte */
+}
+
+.menu ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Deixa os itens em linha */
+}
+
+.menu li {
+    margin-right: 15px; /* Espaçamento entre os itens */
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.menu{
+ 
+    position: fixed; /* Fixa o menu no topo */
+    top: 0; /* Gruda no topo */
+    left: 0;
+    width: 100%; /* Faz o menu ocupar toda a largura */
+    background-color: blueviolet;
+    padding: 15px 0; /* Espaçamento interno apenas no topo e na parte inferior */
+}
