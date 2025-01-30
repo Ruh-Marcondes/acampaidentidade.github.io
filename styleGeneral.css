@@ -1,3 +1,4 @@
+
 .menu a{
     text-decoration: none; /* Remove o sublinhado */
     color: inherit; /* Usa a cor do elemento pai */
@@ -23,8 +24,9 @@
     top: 0; /* Gruda no topo */
     left: 0;
     width: 100%; /* Faz o menu ocupar toda a largura */
-    background-color:#ee9c5d;
+    background-color:#aeba89;
     padding: 15px 0; /* Espaçamento interno apenas no topo e na parte inferior */
+    color: #000000
 }
 
 
@@ -34,7 +36,7 @@ body{
 
 
 footer{
-    background-color: #333;
+    background-color: #202020;
     padding: 20px 0; /* Adiciona espaçamento vertical */
     width: 100%;
     position: absolute;
@@ -63,4 +65,8 @@ footer img{
     width:25; 
     height:25
     
+}
+
+body{
+    font-family: 'Times New Roman', 'Times', 'serif';
 }
