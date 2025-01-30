@@ -20,6 +20,11 @@ h1{
     font-size: 4rem; /* Tamanho maior para o h1 */
 }
 
+h6{
+    text-align: center; /* Centraliza o texto */
+    margin-top: 50px; /* Espaço superior (opcional) */
+}
+
 .text-ver{
     padding-top: 3%;
     background-color: #5e6745;
@@ -29,6 +34,7 @@ h1{
   
     justify-content: center;
     align-items: center;
+    font-family: monospace ;
 }
 .infos{
     background-color: #7b7d80;
