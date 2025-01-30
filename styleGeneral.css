@@ -23,10 +23,44 @@
     top: 0; /* Gruda no topo */
     left: 0;
     width: 100%; /* Faz o menu ocupar toda a largura */
-    background-color: #f7b58c;
+    background-color:#ee9c5d;
     padding: 15px 0; /* Espaçamento interno apenas no topo e na parte inferior */
 }
 
+
 body{
     background-color: #ffefff;
+}
+
+
+footer{
+    background-color: #333;
+    padding: 20px 0; /* Adiciona espaçamento vertical */
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 10%;
+}
+.footer-content {
+    display: flex; /* Torna o contêiner flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /* Adiciona espaço entre os elementos */
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffefff;
+    font-family: Arial, sans-serif;
+    
+}
+footer .txt:hover{
+    background-color:#ee9c5d ;
+    border-radius: 5px;
+}
+
+footer img{
+    width:25; 
+    height:25
+    
 }
