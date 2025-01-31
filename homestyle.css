@@ -12,6 +12,7 @@
 .top{
 
 
+    width: 100%;
     text-align: center; /* Centraliza o texto */
     margin-top: 50px; /* Espaço superior (opcional) */
 }
