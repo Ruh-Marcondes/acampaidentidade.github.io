@@ -12,3 +12,17 @@ h2{
 .oquelevar, .oquenaolevar, .regras {
     margin-top: 20px; /* Espaçamento superior */
 }
+
+.traco {
+    list-style-type: none; /* Remove o ponto padrão */
+}
+
+ul {
+    list-style-type: disc; /* Garante bolinha preenchida */
+}
+.traco li::before {
+    content: "— "; /* Adiciona o traço antes de cada item */
+    color: black; /* Define a cor do traço */
+    font-weight: bold; /* Deixa o traço mais forte */
+}
+
