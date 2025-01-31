@@ -37,7 +37,7 @@ h6{
     font-family: monospace ;
 }
 .infos{
-    background-color: #7b7d80;
+    background-color: #5e6745;
     text-align: left;
     
 
@@ -49,8 +49,14 @@ h6{
     padding: 0; /* Remove o preenchimento interno */
     margin: 0; /* Remove a margem, se necessário */
     margin-left: 10%;
-    color: #000000;
+    color: #ffefff;
     font-size: large;
     justify-content: space-around;
+    font-family: monospace;
     
+}
+
+.btn-color{
+    background-color: #5e6745;
+    color: #ffefff;
 }

@@ -4,10 +4,11 @@
 
 h2{
     padding: auto;
+    margin-left: 5%;
 
 }
 
 /* Estilos para os containers de conteúdo */
-.oquelevar, .oquenaolevar {
+.oquelevar, .oquenaolevar, .regras {
     margin-top: 20px; /* Espaçamento superior */
 }
