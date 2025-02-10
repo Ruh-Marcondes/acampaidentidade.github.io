@@ -24,7 +24,7 @@
     top: 0; /* Gruda no topo */
     left: 0;
     width: 100%; /* Faz o menu ocupar toda a largura */
-    background-color:#aeba89;
+    background-color:#EA2C38;
     padding: 15px 0; /* Espaçamento interno apenas no topo e na parte inferior */
     color: #000000
 }
@@ -57,7 +57,7 @@ footer a {
     
 }
 footer .txt:hover{
-    background-color:#ee9c5d ;
+    background-color:#ffefff ;
     border-radius: 5px;
 }
 
