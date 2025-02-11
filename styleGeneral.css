@@ -1,8 +1,14 @@
 /* https://lospec.com/palette-list/andrade-gameboy  ---> palheta de cores*/ 
+
+@font-face {
+    font-family: "Roboto";
+    src: url("src/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
 .menu a{
     text-decoration: none; /* Remove o sublinhado */
     color: inherit; /* Usa a cor do elemento pai */
-    font-family: Arial, sans-serif; /* Define a fonte */
+    font-family: "Roboto" sans-serif; /* Define a fonte */
 }
 
 .menu ul {
@@ -32,6 +38,7 @@
 
 body{
     background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -67,6 +74,3 @@ footer img{
     
 }
 
-body{
-    font-family: 'Times New Roman', 'Times', 'serif';
-}
