@@ -30,15 +30,16 @@
     top: 0; /* Gruda no topo */
     left: 0;
     width: 100%; /* Faz o menu ocupar toda a largura */
-    background-color:#EA2C38;
+    background-color:#FE3030;
     padding: 15px 0; /* Espaçamento interno apenas no topo e na parte inferior */
     color: #030303
 }
 
 
 body{
-    background-color: #ffffff;
+    background-color: #272727;
     font-family: "Roboto", sans-serif;
+    color: #fff;
 }
 
 

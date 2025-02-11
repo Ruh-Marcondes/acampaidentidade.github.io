@@ -22,7 +22,7 @@ ul {
 }
 .traco li::before {
     content: "— "; /* Adiciona o traço antes de cada item */
-    color: black; /* Define a cor do traço */
+    color: white; /* Define a cor do traço */
     font-weight: bold; /* Deixa o traço mais forte */
 }
 
