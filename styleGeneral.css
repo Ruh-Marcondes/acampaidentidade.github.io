@@ -1,4 +1,6 @@
 /* https://lospec.com/palette-list/andrade-gameboy  ---> palheta de cores*/ 
+
+
 .menu a{
     text-decoration: none; /* Remove o sublinhado */
     color: inherit; /* Usa a cor do elemento pai */
@@ -25,13 +27,16 @@
     left: 0;
     width: 100%; /* Faz o menu ocupar toda a largura */
     background-color:#EA2C38;
-    padding: 15px 0; /* Espaçamento interno apenas no topo e na parte inferior */
+    padding: 15px 20px; /* Espaçamento interno apenas no topo e na parte inferior */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #030303
 }
 
 
 body{
-    background-color: #ffffff;
+    background-color: #E1DCC9;
 }
 
 
@@ -69,4 +74,37 @@ footer img{
 
 body{
     font-family: 'Times New Roman', 'Times', 'serif';
+}
+
+.menu  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 500,
+      'GRAD' 0,
+      'opsz' 48;
+    font-size: 250%; /* Ajuste o tamanho conforme necessário */
+    color: #000; /* Ajuste a cor conforme necessário */
+    margin-left: auto;
+  }
+  
+
+  .back-ground {
+    position: relative;
+    background-image: url("src/identi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    height: 50vh; /* Ajuste a altura conforme necessário */
+}
+
+.back-ground::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.123); /* Ajuste a opacidade aqui (0.5 = 50%) */
 }
